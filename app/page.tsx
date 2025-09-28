@@ -104,7 +104,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="text-center py-20 space-y-8">
+      <div className="text-center py-20 space-y-8 mt-32">
         <h2 className="font-bold text-5xl">
           Membangun Jembatan
           <span className="font-bold text-5xl text-green-700">
@@ -117,7 +117,7 @@ export default function Home() {
           Saudi, Jepang, Korea Selatan Dan Australi .
         </p>
       </div>
-      <div className="grid grid-cols-2 gap-6 px-8 py-10">
+      <div className="grid grid-cols-2 gap-6 px-8 py-10 mb-20">
         <div className="w-full py-52 bg-[url(/background-about.jpg)] bg-cover rounded-xl"></div>
         <div className="w-full py-10 space-y-10 px-8">
           <div className="flex items-start gap-4">
@@ -186,7 +186,7 @@ export default function Home() {
         <div className="bg-black py-55 px-55"></div>
         <div className="bg-black py-55 px-55"></div>
       </div>
-      <div className="text-center py-20 space-y-8">
+      <div className="text-center py-28 space-y-8 mt-48">
         <h2 className="font-bold text-5xl">
           Pilih Program Pertukaran
           <br />
@@ -199,7 +199,7 @@ export default function Home() {
           Setiap program dirancang untuk memberikan pengalaman transformatif.
         </p>
       </div>
-      <div className="flex justify-start gap-6 px-8 py-10">
+      <div className="flex justify-start gap-6 px-8 py-6">
         <div className="w-full rounded-xl border border-gray-200">
           <div className="w-full h-48 bg-green-600 rounded-t-xl"></div>
           <div className="py-4 px-6">
@@ -389,19 +389,103 @@ export default function Home() {
         <div className="bg-black py-55 px-55"></div>
         <div className="bg-black py-55 px-55"></div>
       </div>
-      <div className="text-center py-20 space-y-8">
+      <div className="text-center py-12 space-y-4 mt-48">
         <h2 className="font-bold text-5xl">Info Dan Berita</h2>
         <p className="font-light text-sm text-gray-400 mx-96">
           Temukan tips, pengalaman, dan panduan terkini seputar pendidikan dan
           program exchange internasional
         </p>
       </div>
-      <div className="flex justify-start gap-6 px-8 py-10">
-        <div className="bg-black py-55 px-55"></div>
-        <div className="bg-black py-55 px-55"></div>
-        <div className="bg-black py-55 px-55"></div>
+      <div className="grid grid-cols-3 gap-6 px-8 py-10">
+        <div className="w-full rounded-xl border border-gray-200">
+          <div className="w-full h-48 bg-green-600 rounded-t-xl"></div>
+          <div className="flex gap-6 px-6 mt-6">
+            <div>
+              <p className="text-xs">15 Maret 2025</p>
+            </div>
+            <div>
+              <p className="text-xs">1 Jam</p>
+            </div>
+          </div>
+          <div className="py-4 px-6">
+            <h3 className="font-bold text-xl">Program Intensif Mekkah</h3>
+          </div>
+
+          <div className="px-6 py-2">
+            <p className="text-base font-light text-gray-500">
+              Program intensif 2 minggu di Makkah dengan fokus pada studi Islam,
+              bahasa Arab, dan pengalaman spiritual di Masjidil Haram.
+            </p>
+          </div>
+          <div className="flex justify-between  px-4 py-2">
+            <Link className=" py-3 px-2 rounded-md text-black" href={""}>
+              Dr. Ahmad Thohir
+            </Link>
+            <Link className="px-10 py-3 text-black font-bold" href={""}>
+              Baca Selengkapnya
+            </Link>
+          </div>
+        </div>
+        <div className="w-full rounded-xl border border-gray-200">
+          <div className="w-full h-48 bg-green-600 rounded-t-xl"></div>
+          <div className="flex gap-6 px-6 mt-6">
+            <div>
+              <p className="text-xs">15 Maret 2025</p>
+            </div>
+            <div>
+              <p className="text-xs">1 Jam</p>
+            </div>
+          </div>
+          <div className="py-4 px-6">
+            <h3 className="font-bold text-xl">Program Intensif Mekkah</h3>
+          </div>
+
+          <div className="px-6 py-2">
+            <p className="text-base font-light text-gray-500">
+              Program intensif 2 minggu di Makkah dengan fokus pada studi Islam,
+              bahasa Arab, dan pengalaman spiritual di Masjidil Haram.
+            </p>
+          </div>
+          <div className="flex justify-between  px-4 py-2">
+            <Link className=" py-3 px-2 rounded-md text-black" href={""}>
+              Dr. Ahmad Thohir
+            </Link>
+            <Link className="px-10 py-3 text-black font-bold" href={""}>
+              Baca Selengkapnya
+            </Link>
+          </div>
+        </div>
+        <div className="w-full rounded-xl border border-gray-200">
+          <div className="w-full h-48 bg-green-600 rounded-t-xl"></div>
+          <div className="flex gap-6 px-6 mt-6">
+            <div>
+              <p className="text-xs">15 Maret 2025</p>
+            </div>
+            <div>
+              <p className="text-xs">1 Jam</p>
+            </div>
+          </div>
+          <div className="py-4 px-6">
+            <h3 className="font-bold text-xl">Program Intensif Mekkah</h3>
+          </div>
+
+          <div className="px-6 py-2">
+            <p className="text-base font-light text-gray-500">
+              Program intensif 2 minggu di Makkah dengan fokus pada studi Islam,
+              bahasa Arab, dan pengalaman spiritual di Masjidil Haram.
+            </p>
+          </div>
+          <div className="flex justify-between  px-4 py-2">
+            <Link className=" py-3 px-2 rounded-md text-black" href={""}>
+              Dr. Ahmad Thohir
+            </Link>
+            <Link className="px-10 py-3 text-black font-bold" href={""}>
+              Baca Selengkapnya
+            </Link>
+          </div>
+        </div>
       </div>
-      <div className="text-center py-20 space-y-8">
+      <div className="text-center py-28 space-y-8 mt-26">
         <h2 className="font-bold text-5xl">
           Ingin Menjadi Bagian dari Kisah Sukses Selanjutnya?
         </h2>
