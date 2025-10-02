@@ -27,7 +27,7 @@ export default function Home() {
         </div>
         <div className="space-y-8 grid grid-cols-1 place-items-center text-center pt-48">
           <div>
-            <h1 className="text-white text-6xl font-bold">
+            <h1 className="text-white text-6xl font-bold py-3">
               Journey to Discover Your Path
             </h1>
           </div>
@@ -503,7 +503,102 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-green-700 w-full py-52"></div>
+      <div className="bg-green-700 w-full grid grid-cols-4 gap-10 py-6 px-12">
+        <div className="px-4 py-8 space-y-4">
+          <h3 className="font-bold text-2xl">Education Exchange</h3>
+          <p className="text-gray-300 text-sm font-light">
+            Belajar tak lagi terbatas di ruang kelas. Kini, dunia adalah sekolah
+            Anda. Bersama CozyJourney, mari jelajahi dunia dan temukan arah Anda
+          </p>
+          <div className="flex justify-start gap-8 mt-18">
+            <p>A</p>
+            <p>A</p>
+            <p>A</p>
+          </div>
+        </div>
+        <div className="px-10 py-8 space-y-4">
+          <h3 className="text-white text-xl font-bold">Program</h3>
+          <div className="space-y-4">
+            <ul className="space-y-3">
+              <li>
+                <Link href={""} className="text-gray-300 text-sm font-light">
+                  Program Makkah
+                </Link>
+              </li>
+              <li>
+                <Link href={""} className="text-gray-300 text-sm font-light">
+                  Program Madinah
+                </Link>
+              </li>
+              <li>
+                <Link href={""} className="text-gray-300 text-sm font-light">
+                  Program Malaysia
+                </Link>
+              </li>
+              <li>
+                <Link href={""} className="text-gray-300 text-sm font-light">
+                  Program Australia
+                </Link>
+              </li>
+              <li>
+                <Link href={""} className="text-gray-300 text-sm font-light">
+                  Program Jepang
+                </Link>
+              </li>
+              <li>
+                <Link href={""} className="text-gray-300 text-sm font-light">
+                  Program Korea
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="px-4 py-8 space-y-4">
+          <h3 className="text-white text-xl font-bold">Layanan</h3>
+          <div className="space-y-4">
+            <ul className="space-y-3">
+              <li>
+                <Link href={""} className="text-gray-300 text-sm font-light">
+                  Belajar Online
+                </Link>
+              </li>
+              <li>
+                <Link href={""} className="text-gray-300 text-sm font-light">
+                  Community Learning
+                </Link>
+              </li>
+              <li>
+                <Link href={""} className="text-gray-300 text-sm font-light">
+                  Konsultasi Gratis
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>{" "}
+        <div className="px-4 py-8 space-y-4">
+          <h3 className="text-white text-xl font-bold">Kontak</h3>
+          <div className="space-y-4">
+            <ul className="space-y-3">
+              <li>
+                <Link href={""} className="text-gray-300 text-sm font-light">
+                  Jl. Pendidikan No. 123 Jakarta Selatan 12345
+                </Link>
+              </li>
+              <li>
+                <Link href={""} className="text-gray-300 text-sm font-light">
+                  +62 21 1234 5678
+                </Link>
+              </li>
+              <li>
+                <Link href={""} className="text-gray-300 text-sm font-light">
+                  info@islamiceducation.id
+                </Link>
+              </li>
+            </ul>
+            <h3 className="text-white text-xl font-bold">News Letter</h3>
+          </div>
+        </div>{" "}
+      </div>
     </div>
   );
 }
